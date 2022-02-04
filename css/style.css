@@ -17,10 +17,16 @@ body{
     justify-content:flex-end;
     z-index: 1000;
 }
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
 .navbar-brand img{
-    align-items:flex-start;
-    display:block;
-    margin: auto;
+    display: flex;
+    justify-content: safe;
 }
 li {
     list-style: none;
