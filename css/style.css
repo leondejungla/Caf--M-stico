@@ -2,15 +2,11 @@
     margin:0;
     padding:0;
 }
-header {
-    position: sticky;
-    top: 0;
-}
+
 body{
     box-sizing: border-box;
 }
 #navbar{
-    float:inline-start ;
     position:sticky;
     top: 0;
     display: flex;
@@ -46,24 +42,23 @@ li {
     justify-content: flex-start;
 }
 .navbar-toggler {
-padding: .25rem .75rem;
-font-size: 1.25rem;
-line-height: 1;
-background-color: transparent;
-border: 1px solid transparent;
-border-radius: .25rem;
--webkit-transition: -webkit-box-shadow .15s ease-in-out;
-transition: -webkit-box-shadow .15s ease-in-out;
-transition: box-shadow .15s ease-in-out;
-transition: box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    -webkit-transition: -webkit-box-shadow .15s ease-in-out;
+    transition: -webkit-box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out;
+    transition: box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .navbar-nav li{
-    list-style: none !important;
-    display:flow-root;
+    display:inline-block;
     margin: auto;
-    align-items:flex-end;
-    position:right;
+    align-items:center;
+    position:static;
     padding-left:30px;
     padding-right:30px;
     font-size: large;
